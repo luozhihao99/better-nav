@@ -26,16 +26,16 @@ interface Social {
 
 // 备案信息
 const IcpLinks: Social[] = [
-  {
-    image: "/icp.png",
-    url: "https://beian.miit.gov.cn/#/Integrated/index",
-    label: process.env.NEXT_PUBLIC_ICP!,
-  },
-  {
-    image: "/gongan.png",
-    url: "https://beian.mps.gov.cn/#/query/webSearch",
-    label: process.env.NEXT_PUBLIC_GUAN_ICP!,
-  },
+  // {
+  //   image: "/icp.png",
+  //   url: "https://beian.miit.gov.cn/#/Integrated/index",
+  //   label: process.env.NEXT_PUBLIC_ICP!,
+  // },
+  // {
+  //   image: "/gongan.png",
+  //   url: "https://beian.mps.gov.cn/#/query/webSearch",
+  //   label: process.env.NEXT_PUBLIC_GUAN_ICP!,
+  // },
 ];
 
 const Footer: FC = () => {
